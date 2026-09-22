@@ -1,167 +1,211 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@media (max-width: 380px) {
 
-  <title>Hantin Shop</title>
+      .page {
+        padding: 28px 14px 20px;
+      }
 
-  <style>
-    * {
-      box-sizing: border-box;
+      .logo {
+        width: 135px;
+      }
+
+      .brand-name {
+        font-size: 24px;
+      }
+
+      .welcome {
+        font-size: 13px;
+      }
+
+      .link {
+        min-height: 49px;
+      }
+
     }
 
-    body {
-      margin: 0;
-      font-family: Tahoma, Arial, sans-serif;
-      background: #fff;
-      color: #222;
-      text-align: center;
-    }
-
-    .container {
-      width: 90%;
-      max-width: 480px;
-      margin: 0 auto;
-      padding: 45px 0;
-    }
-
-    .logo {
-      width: 150px;
-      max-width: 60%;
-      margin-bottom: 25px;
-    }
-
-    h1 {
-      font-size: 24px;
-      margin: 0 0 8px;
-    }
-
-    .subtitle {
-      font-size: 14px;
-      color: #777;
-      margin-bottom: 30px;
-    }
-
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .link {
-      display: block;
-      padding: 15px 20px;
-      border: 1px solid #ddd;
-      border-radius: 14px;
-      color: #222;
-      text-decoration: none;
-      font-size: 15px;
-      background: #fff;
-    }
-
-    .link:hover {
-      background: #f8f8f8;
-    }
-
-    .info {
-      margin-top: 35px;
-      text-align: right;
-      border-top: 1px solid #eee;
-      padding-top: 25px;
-    }
-
-    .info-item {
-      margin-bottom: 20px;
-    }
-
-    .info-title {
-      font-size: 13px;
-      color: #888;
-      margin-bottom: 6px;
-    }
-
-    .info-text {
-      font-size: 14px;
-      line-height: 1.8;
-    }
-
-    .footer {
-      margin-top: 35px;
-      font-size: 12px;
-      color: #aaa;
-    }
   </style>
 </head>
 
+
 <body>
 
-  <div class="container">
+  <main class="page">
 
-    <!-- لوگو -->
-    <img src="logo.png" alt="Hantin Shop" class="logo">
+    <div class="container">
 
-    <h1>Hantin Shop</h1>
-    <div class="subtitle">منتظر حضورتون هستیم 🤍</div>
 
-    <!-- شبکه‌های اجتماعی و تماس -->
-    <div class="links">
+      <!-- =========================
+           LOGO
+           ========================= -->
 
-      <a class="link" href="#">
-        Instagram
-      </a>
+      <img
+        src="LOGO.svg"
+        alt="Hantin Shop"
+        class="logo"
+      >
 
-      <a class="link" href="#">
-        Telegram
-      </a>
+      <div class="brand-name">
+        Hantin
+      </div>
 
-      <a class="link" href="#">
-        WhatsApp
-      </a>
+      <div class="welcome">
+        خوشحال می‌شیم ببینیمتون 🤍
+      </div>
 
-      <a class="link" href="#">
-        Rubika
-      </a>
 
-      <a class="link" href="tel:">
-        تماس با ما
-      </a>
+      <!-- =========================
+           SOCIAL MEDIA
+           ========================= -->
+
+      <div class="links">
+
+
+        <!-- Instagram -->
+        <a
+          class="link"
+          href="YOUR_INSTAGRAM_LINK"
+          target="_blank"
+        >
+          اینستاگرام
+        </a>
+
+
+        <!-- Telegram -->
+        <a
+          class="link"
+          href="YOUR_TELEGRAM_LINK"
+          target="_blank"
+        >
+          تلگرام
+        </a>
+
+
+        <!-- WhatsApp -->
+        <a
+          class="link"
+          href="YOUR_WHATSAPP_LINK"
+          target="_blank"
+        >
+          واتساپ
+        </a>
+
+
+        <!-- Rubika -->
+        <a
+          class="link"
+          href="YOUR_RUBIKA_LINK"
+          target="_blank"
+        >
+          روبیکا
+        </a>
+
+
+        <!-- Phone 1 -->
+        <a
+          class="link"
+          href="tel:YOUR_PHONE_1"
+        >
+          تماس با ما
+        </a>
+
+
+        <!-- Phone 2 -->
+        <a
+          class="link"
+          href="tel:YOUR_PHONE_2"
+        >
+          تماس با ما
+        </a>
+
+
+      </div>
+
+
+      <!-- =========================
+           SHOP INFORMATION
+           ========================= -->
+
+      <section class="info-card">
+
+
+        <!-- Phone numbers -->
+        <div class="info-item">
+
+          <div class="info-title">
+            شماره‌های تماس
+          </div>
+
+          <div class="info-text">
+
+            YOUR_PHONE_1
+
+            <br>
+
+            YOUR_PHONE_2
+
+          </div>
+
+        </div>
+
+
+        <!-- Address -->
+        <div class="info-item">
+
+          <div class="info-title">
+            آدرس فروشگاه
+          </div>
+
+          <div class="info-text">
+
+            آدرس فروشگاه اینجا قرار می‌گیرد
+
+          </div>
+
+
+          <!-- بعداً لینک نقشه خودت را جایگزین کن -->
+
+          <a
+            class="map-button"
+            href="YOUR_MAP_LINK"
+            target="_blank"
+          >
+            مسیریابی
+          </a>
+
+        </div>
+
+
+        <!-- Working hours -->
+        <div class="info-item">
+
+          <div class="info-title">
+            ساعات کاری
+          </div>
+
+          <div class="info-text">
+
+            ۱۰:۰۰ صبح تا ۲۰:۰۰
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+      <!-- =========================
+           FOOTER
+           ========================= -->
+
+      <div class="footer">
+        Hantin Shop
+      </div>
+
 
     </div>
 
-    <!-- اطلاعات فروشگاه -->
-    <div class="info">
-
-      <div class="info-item">
-        <div class="info-title">شماره‌های تماس</div>
-        <div class="info-text">
-          شماره اول<br>
-          شماره دوم
-        </div>
-      </div>
-
-      <div class="info-item">
-        <div class="info-title">آدرس فروشگاه</div>
-        <div class="info-text">
-          آدرس فروشگاه اینجا قرار می‌گیرد
-        </div>
-      </div>
-
-      <div class="info-item">
-        <div class="info-title">ساعات کاری</div>
-        <div class="info-text">
-          شنبه تا پنجشنبه<br>
-          ساعت کاری اینجا قرار می‌گیرد
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer">
-      Hantin Shop
-    </div>
-
-  </div>
+  </main>
 
 </body>
+
 </html>
