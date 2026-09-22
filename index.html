@@ -1,277 +1,231 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hantin Shop</title>
+
+<style>
+
+@font-face {
+  font-family: DigiRavi;
+  src: url("Digi%20Ravi%20Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ASIVA;
+  src: url("ASIVA.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fffafb;
+  color: #594b51;
+  font-family: DigiRavi, Tahoma, sans-serif;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 65px;
+  height: auto;
+  margin: 0 auto 18px;
+}
+
+.welcome {
+  font-family: DigiRavi, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #927c83;
+  margin-bottom: 22px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  padding: 13px 15px;
+  background: white;
+  border: 1px solid #eadde1;
+  border-radius: 12px;
+  color: #594b51;
+  font-family: DigiRavi, Tahoma, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.information {
+  margin-top: 25px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #eee2e5;
+  border-radius: 14px;
+  text-align: right;
+}
+
+.info-item {
+  padding: 10px 0;
+}
+
+.info-item + .info-item {
+  border-top: 1px solid #f1e8ea;
+}
+
 .info-title {
-      font-family:
-        "DigiRavi",
-        Tahoma,
-        sans-serif;
+  color: #ae8a4c;
+  font-family: DigiRavi, Tahoma, sans-serif;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
 
-      font-size: 11px;
+.info-text {
+  color: #594b51;
+  font-family: DigiRavi, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 2;
+}
 
-      color: #b08c4d;
+.map {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 4px 12px;
+  border: 1px solid #dfc99d;
+  border-radius: 8px;
+  color: #96753d;
+  background: #fffdf9;
+  font-size: 10px;
+  text-decoration: none;
+}
 
-      margin-bottom: 4px;
-    }
+.footer {
+  margin-top: 20px;
+  font-family: ASIVA, Georgia, serif;
+  font-size: 10px;
+  color: #b9a5aa;
+}
 
-
-    .info-text {
-      font-family:
-        "DigiRavi",
-        Tahoma,
-        sans-serif;
-
-      font-size: 12px;
-
-      line-height: 2;
-
-      color: #5b4d52;
-    }
-
-
-    /* =========================
-       MAP
-       ========================= */
-
-    .map {
-      display: inline-block;
-
-      margin-top: 5px;
-
-      padding:
-        4px
-        12px;
-
-      border:
-        1px solid
-        #dfca9e;
-
-      border-radius: 8px;
-
-      background: #fffdf9;
-
-      font-family:
-        "DigiRavi",
-        Tahoma,
-        sans-serif;
-
-      font-size: 10px;
-
-      color: #96753d;
-    }
-
-
-    /* =========================
-       FOOTER
-       ========================= */
-
-    .footer {
-      margin-top: 21px;
-
-      font-family:
-        "ASIVA",
-        Georgia,
-        serif;
-
-      font-size: 10px;
-
-      color: #b9a5aa;
-
-      letter-spacing: 0.5px;
-    }
-
-
-    /* =========================
-       SMALL PHONES
-       ========================= */
-
-    @media (max-width: 360px) {
-
-      .page {
-        padding:
-          24px
-          14px
-          20px;
-      }
-
-      .logo {
-        width: 65px;
-        max-width: 65px;
-      }
-
-      .link {
-        min-height: 45px;
-      }
-
-    }
-
-  </style>
+</style>
 
 </head>
 
-
 <body>
 
-  <main class="page">
+<main class="page">
 
-    <div class="container">
+<div class="container">
 
+<img
+  src="LOGO.svg"
+  alt="Hantin Shop"
+  class="logo"
+>
 
-      <!-- LOGO -->
+<div class="welcome">
+خوشحال می‌شیم ببینیمتون 🤍
+</div>
 
-      <img
-        src="LOGO.svg"
-        alt="Hantin Shop"
-        class="logo"
-      >
+<div class="links">
 
+<a class="link" href="YOUR_INSTAGRAM_LINK" target="_blank">
+اینستاگرام
+</a>
 
-      <!-- WELCOME -->
+<a class="link" href="YOUR_TELEGRAM_LINK" target="_blank">
+تلگرام
+</a>
 
-      <div class="welcome">
-        خوشحال می‌شیم ببینیمتون 🤍
-      </div>
+<a class="link" href="YOUR_WHATSAPP_LINK" target="_blank">
+واتساپ
+</a>
 
+<a class="link" href="YOUR_RUBIKA_LINK" target="_blank">
+روبیکا
+</a>
 
-      <!-- SOCIAL LINKS -->
+<a class="link" href="tel:YOUR_PHONE_1">
+تماس با ما
+</a>
 
-      <div class="links">
+<a class="link" href="tel:YOUR_PHONE_2">
+تماس با ما
+</a>
 
-        <a
-          class="link"
-          href="YOUR_INSTAGRAM_LINK"
-          target="_blank"
-          rel="noopener"
-        >
-          اینستاگرام
-        </a>
+</div>
 
+<section class="information">
 
-        <a
-          class="link"
-          href="YOUR_TELEGRAM_LINK"
-          target="_blank"
-          rel="noopener"
-        >
-          تلگرام
-        </a>
+<div class="info-item">
 
+<div class="info-title">
+شماره‌های تماس
+</div>
 
-        <a
-          class="link"
-          href="YOUR_WHATSAPP_LINK"
-          target="_blank"
-          rel="noopener"
-        >
-          واتساپ
-        </a>
+<div class="info-text">
+YOUR_PHONE_1
+<br>
+YOUR_PHONE_2
+</div>
 
+</div>
 
-        <a
-          class="link"
-          href="YOUR_RUBIKA_LINK"
-          target="_blank"
-          rel="noopener"
-        >
-          روبیکا
-        </a>
+<div class="info-item">
 
+<div class="info-title">
+آدرس فروشگاه
+</div>
 
-        <a
-          class="link"
-          href="tel:YOUR_PHONE_1"
-        >
-          تماس با ما
-        </a>
+<div class="info-text">
+آدرس فروشگاه اینجا قرار می‌گیرد
+</div>
 
+<a class="map" href="YOUR_MAP_LINK" target="_blank">
+مسیریابی
+</a>
 
-        <a
-          class="link"
-          href="tel:YOUR_PHONE_2"
-        >
-          تماس با ما
-        </a>
+</div>
 
-      </div>
+<div class="info-item">
 
+<div class="info-title">
+ساعات کاری
+</div>
 
-      <!-- SHOP INFORMATION -->
+<div class="info-text">
+۱۰ صبح تا ۸ شب
+</div>
 
-      <section class="information">
+</div>
 
+</section>
 
-        <!-- PHONE -->
+<div class="footer">
+Hantin Shop
+</div>
 
-        <div class="info-item">
+</div>
 
-          <div class="info-title">
-            شماره‌های تماس
-          </div>
-
-          <div class="info-text">
-
-            YOUR_PHONE_1
-
-            <br>
-
-            YOUR_PHONE_2
-
-          </div>
-
-        </div>
-
-
-        <!-- ADDRESS -->
-
-        <div class="info-item">
-
-          <div class="info-title">
-            آدرس فروشگاه
-          </div>
-
-          <div class="info-text">
-
-            آدرس فروشگاه اینجا قرار می‌گیرد
-
-          </div>
-
-          <a
-            class="map"
-            href="YOUR_MAP_LINK"
-            target="_blank"
-            rel="noopener"
-          >
-            مسیریابی
-          </a>
-
-        </div>
-
-
-        <!-- HOURS -->
-
-        <div class="info-item">
-
-          <div class="info-title">
-            ساعات کاری
-          </div>
-
-          <div class="info-text">
-            ۱۰ صبح تا ۸ شب
-          </div>
-
-        </div>
-
-
-      </section>
-
-
-      <!-- FOOTER -->
-
-      <div class="footer">
-        Hantin Shop
-      </div>
-
-
-    </div>
-
-  </main>
+</main>
 
 </body>
 
