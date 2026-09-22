@@ -1,51 +1,90 @@
-@media (max-width: 380px) {
+padding:
+        5px
+        13px;
+
+      border:
+        1px solid
+        #dfc99d;
+
+      border-radius: 9px;
+
+      font-size: 11px;
+
+      color: #98763b;
+
+      background: #fffdf9;
+    }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    .footer {
+
+      margin-top: 24px;
+
+      color: #b9a4aa;
+
+      font-family:
+        "ASIVA",
+        Georgia,
+        serif;
+
+      font-size: 11px;
+
+      letter-spacing: 0.5px;
+    }
+
+
+    /* =========================
+       SMALL PHONES
+       ========================= */
+
+    @media (max-width: 360px) {
 
       .page {
-        padding: 28px 14px 20px;
+
+        padding:
+          25px
+          14px
+          20px;
       }
+
 
       .logo {
-        width: 135px;
+
+        width: 90px;
       }
 
-      .brand-name {
-        font-size: 24px;
+
+      .brand {
+
+        font-size: 22px;
       }
 
-      .welcome {
-        font-size: 13px;
-      }
 
       .link {
-        min-height: 49px;
+
+        min-height: 46px;
       }
 
     }
 
-  </@font-face {
-  font-family: "DigiRavi";
-  src: url("./Digi%20Ravi%20Regular.ttf") format("truetype");
-  font-display: swap;
-}
+  </style>
 
-@font-face {
-  font-family: "ASIVA";
-  src: url("./ASIVA.ttf") format("truetype");
-  font-display: swap;
-}>
 </head>
 
 
 <body>
+
 
   <main class="page">
 
     <div class="container">
 
 
-      <!-- =========================
-           LOGO
-           ========================= -->
+      <!-- LOGO -->
 
       <img
         src="LOGO.svg"
@@ -53,9 +92,13 @@
         class="logo"
       >
 
-      <div class="brand-name">
+
+      <!-- BRAND -->
+
+      <div class="brand">
         Hantin
       </div>
+
 
       <div class="welcome">
         خوشحال می‌شیم ببینیمتون 🤍
@@ -63,53 +106,52 @@
 
 
       <!-- =========================
-           SOCIAL MEDIA
+           SOCIAL LINKS
            ========================= -->
 
       <div class="links">
 
 
-        <!-- Instagram -->
         <a
           class="link"
           href="YOUR_INSTAGRAM_LINK"
           target="_blank"
+          rel="noopener"
         >
           اینستاگرام
         </a>
 
 
-        <!-- Telegram -->
         <a
           class="link"
           href="YOUR_TELEGRAM_LINK"
           target="_blank"
+          rel="noopener"
         >
           تلگرام
         </a>
 
 
-        <!-- WhatsApp -->
         <a
           class="link"
           href="YOUR_WHATSAPP_LINK"
           target="_blank"
+          rel="noopener"
         >
           واتساپ
         </a>
 
 
-        <!-- Rubika -->
         <a
           class="link"
           href="YOUR_RUBIKA_LINK"
           target="_blank"
+          rel="noopener"
         >
           روبیکا
         </a>
 
 
-        <!-- Phone 1 -->
         <a
           class="link"
           href="tel:YOUR_PHONE_1"
@@ -118,7 +160,6 @@
         </a>
 
 
-        <!-- Phone 2 -->
         <a
           class="link"
           href="tel:YOUR_PHONE_2"
@@ -134,10 +175,11 @@
            SHOP INFORMATION
            ========================= -->
 
-      <section class="info-card">
+      <section class="information">
 
 
-        <!-- Phone numbers -->
+        <!-- PHONE -->
+
         <div class="info-item">
 
           <div class="info-title">
@@ -157,7 +199,8 @@
         </div>
 
 
-        <!-- Address -->
+        <!-- ADDRESS -->
+
         <div class="info-item">
 
           <div class="info-title">
@@ -171,12 +214,11 @@
           </div>
 
 
-          <!-- بعداً لینک نقشه خودت را جایگزین کن -->
-
           <a
-            class="map-button"
+            class="map"
             href="YOUR_MAP_LINK"
             target="_blank"
+            rel="noopener"
           >
             مسیریابی
           </a>
@@ -184,7 +226,8 @@
         </div>
 
 
-        <!-- Working hours -->
+        <!-- HOURS -->
+
         <div class="info-item">
 
           <div class="info-title">
@@ -193,7 +236,7 @@
 
           <div class="info-text">
 
-            ۱۰:۰۰ صبح تا ۲۰:۰۰
+            ۱۰ صبح تا ۸ شب
 
           </div>
 
@@ -203,18 +246,19 @@
       </section>
 
 
-      <!-- =========================
-           FOOTER
-           ========================= -->
+      <!-- FOOTER -->
 
       <div class="footer">
+
         Hantin Shop
+
       </div>
 
 
     </div>
 
   </main>
+
 
 </body>
 
