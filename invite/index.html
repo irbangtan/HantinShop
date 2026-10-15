@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9fb">
+  <meta name="description" content="دعوت‌نامه دیجیتال افتتاحیه بوتیک حانتین">
+  <title>دعوت‌نامه افتتاحیه | حانتین</title>
+  <style>
+    :root{
+      --ivory:#fffaf8; --pink:#f4dce5; --pink-deep:#bd8299;
+      --rose:#87586c; --gold:#b18a4e; --gold-light:#e5cfaa;
+      --ink:#553b46; --muted:#8e747e;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; min-height:100vh; color:var(--ink);
+      background:
+        radial-gradient(ellipse at 10% 10%,rgba(244,220,229,.58),transparent 33%),
+        radial-gradient(ellipse at 90% 90%,rgba(229,207,170,.28),transparent 35%),
+        var(--ivory);
+      font-family:Tahoma,"Segoe UI",Arial,sans-serif;
+      display:flex; align-items:center; justify-content:center;
+      padding:24px 14px;
+    }
+    .page{width:min(100%,560px); position:relative}
+    .card{
+      position:relative; overflow:hidden; text-align:center;
+      background:rgba(255,255,255,.84);
+      border:1px solid var(--gold-light); border-radius:28px;
+      padding:30px 25px 26px;
+      box-shadow:0 18px 55px rgba(123,78,96,.10);
+    }
+    .card:before,.card:after{
+      content:""; position:absolute; width:155px;height:155px;
+      border:1px solid rgba(177,138,78,.24); border-radius:50%;
+      pointer-events:none
+    }
+    .card:before{top:-112px;right:-78px}
+    .card:after{bottom:-112px;left:-78px}
+    .topline{color:var(--gold);font-size:11px;letter-spacing:5px;direction:ltr}
+    .brand-fa{font-size:37px;line-height:1.5;font-weight:600;color:var(--gold);margin:3px 0 0}
+    .ornament{display:flex;align-items:center;justify-content:center;gap:10px;margin:8px auto 15px;color:var(--gold)}
+    .ornament span{height:1px;width:64px;background:linear-gradient(90deg,transparent,var(--gold-light))}
+    .ornament span:last-child{transform:rotate(180deg)}
+    .ornament b{font-size:17px;font-weight:400}
+    .eyebrow{font-size:13px;color:var(--pink-deep);letter-spacing:.2px;margin:0 0 10px}
+    h1{font-size:clamp(25px,6vw,34px);line-height:1.6;margin:0;color:var(--rose);font-weight:600}
+    .intro{font-size:14px;line-height:2.1;color:var(--muted);max-width:390px;margin:9px auto 20px}
+    .floral{
+      height:104px; margin:2px auto 15px; color:#c89aab;
+      display:flex;align-items:center;justify-content:center
+    }
+    .floral svg{width:180px;height:100px;max-width:100%}
+    .details{
+      background:linear-gradient(135deg,rgba(255,249,251,.95),rgba(255,253,248,.96));
+      border:1px solid #f0dfe5;border-radius:18px;padding:16px 14px;margin:0 auto 18px;
+      display:grid;grid-template-columns:1fr 1fr;gap:12px
+    }
+    .detail{padding:4px 5px}
+    .detail-label{font-size:11px;color:var(--muted);margin-bottom:7px}
+    .detail-value{font-size:15px;font-weight:600;color:var(--rose);line-height:1.8}
+    .address{font-size:13px;line-height:2;color:var(--ink);margin:0 auto 18px;max-width:420px}
+    .address strong{display:block;color:var(--gold);font-size:12px;margin-bottom:4px}
+    .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 12px}
+    .btn{
+      min-height:51px;border-radius:13px;text-decoration:none;
+      display:flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 10px;font-size:14px;font-weight:600;
+      transition:transform .18s ease,box-shadow .18s ease;
+    }
+    .btn:hover{transform:translateY(-2px);box-shadow:0 7px 18px rgba(135,88,108,.12)}
+    .btn-map{background:var(--pink-deep);color:white;border:1px solid var(--pink-deep)}
+    .btn-call{background:#fffdf9;color:#86643a;border:1px solid var(--gold)}
+    .btn svg{width:18px;height:18px;flex-shrink:0}
+    .phone{display:inline-block;direction:ltr;color:var(--muted);text-decoration:none;font-size:13px;margin-top:3px}
+    .closing{font-size:13px;color:var(--rose);margin:21px 0 0}
+    .heart{color:var(--gold);padding:0 4px}
+    .foot{font-size:10px;color:#b29ba4;margin:17px 0 0;direction:ltr;letter-spacing:1px}
+    @media(max-width:390px){
+      .card{padding:25px 16px 22px;border-radius:22px}
+      .details{padding:13px 8px}
+      .detail-value{font-size:14px}
+      .actions{grid-template-columns:1fr}
+      .brand-fa{font-size:33px}
+    }
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-labelledby="invite-title">
+      <div class="topline">H A N T I N</div>
+      <div class="brand-fa">حانتین</div>
+      <div class="ornament" aria-hidden="true"><span></span><b>✧</b><span></span></div>
+      <p class="eyebrow">دعوتید به جشن آغاز یک رؤیا</p>
+      <div class="floral" aria-hidden="true">
+        <svg viewBox="0 0 220 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="#c89aab" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M109 111C110 85 105 65 91 45M110 104C123 82 140 65 158 57"/>
+            <path d="M99 79C78 82 67 72 67 58C84 58 96 65 99 79Z" fill="#f7e8ee"/>
+            <path d="M126 84C146 86 159 77 162 64C145 63 132 70 126 84Z" fill="#f7e8ee"/>
+            <path d="M91 46C82 37 83 25 94 19C105 26 105 38 91 46Z" fill="#f4dce5"/>
+            <path d="M91 46C77 40 69 29 75 19C87 20 95 32 91 46Z" fill="#f8eaf0"/>
+            <path d="M91 46C96 31 108 25 117 33C114 44 102 49 91 46Z" fill="#f8eaf0"/>
+            <path d="M91 46C77 50 66 45 65 34C76 29 87 35 91 46Z" fill="#f4dce5"/>
+            <path d="M91 46C100 48 107 58 100 67C89 62 86 53 91 46Z" fill="#f4dce5"/>
+            <path d="M158 57C149 48 151 38 161 33C171 41 169 51 158 57Z" fill="#f4dce5"/>
+            <path d="M158 57C145 54 139 44 145 35C156 36 163 46 158 57Z" fill="#f8eaf0"/>
+            <path d="M158 57C164 44 175 41 183 49C178 59 167 62 158 57Z" fill="#f8eaf0"/>
+            <path d="M158 57C146 63 136 59 134 49C144 44 153 48 158 57Z" fill="#f4dce5"/>
+            <path d="M158 57C167 60 171 70 164 77C155 72 153 63 158 57Z" fill="#f4dce5"/>
+          </g>
+          <g fill="#b18a4e"><circle cx="91" cy="46" r="3"/><circle cx="158" cy="57" r="2.5"/><circle cx="110" cy="111" r="2"/></g>
+        </svg>
+      </div>
+      <h1 id="invite-title">افتتاحیهٔ بوتیک حانتین</h1>
+      <p class="intro">با شوق آغاز این فصل تازه را جشن می‌گیریم؛<br>حضور شما، این روز را برای ما زیباتر می‌کند.</p>
+
+      <div class="details">
+        <div class="detail">
+          <div class="detail-label">روز و تاریخ</div>
+          <div class="detail-value">جمعه<br>۲۴ مهر ۱۴۰۵</div>
+        </div>
+        <div class="detail">
+          <div class="detail-label">ساعت مراسم</div>
+          <div class="detail-value">۱۴ تا ۱۸</div>
+        </div>
+      </div>
+
+      <p class="address">
+        <strong>نشانی فروشگاه</strong>
+        تهران، نعمت‌آباد، خیابان نور، کوچه سراب‌نژاد
+      </p>
+
+      <div class="actions">
+        <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&amp;query=%D8%AA%D9%87%D8%B1%D8%A7%D9%86%D8%8C%20%D9%86%D8%B9%D9%85%D8%AA%E2%80%8C%D8%A2%D8%A8%D8%A7%D8%AF%D8%8C%20%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%20%D9%86%D9%88%D8%B1%D8%8C%20%DA%A9%D9%88%DA%86%D9%87%20%D8%B3%D8%B1%D8%A7%D8%A8%E2%80%8C%D9%86%DA%98%D8%A7%D8%AF" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          مسیریابی فروشگاه
+        </a>
+        <a class="btn btn-call" href="tel:+989219683637">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 16.5v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 10.2 18a19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.9 3.2 2 2 0 0 1 3.9 1h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L7.8 9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 .9 2.6Z"/></svg>
+          تماس با حانتین
+        </a>
+      </div>
+      <a class="phone" href="tel:+989219683637">0921 968 3637</a>
+      <p class="closing">منتظر دیدارتان هستیم <span class="heart">♡</span></p>
+      <p class="foot">HANTIN · OPENING INVITATION</p>
+    </section>
+  </main>
+</body>
+</html>
